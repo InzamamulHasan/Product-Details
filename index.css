@@ -62,10 +62,11 @@ body{
     text-align: center;
 }
 table{
-    padding: 10px;
+
     width: 130vh;
     margin: auto;
     border-collapse:collapse ;
+   
   
 }
 table>thead{
@@ -117,6 +118,45 @@ thead{
     border-radius: 10px;
     text-align: end;
 }
+@media (min-width:500px) and (max-width:1000px){
+    .table-container{
+        background-color: aqua;
+    }
+    
+    th,td{
+        font-size: 16px;
+    }
+    #create{
+        width: 60vh;
+    }
+    .main-container{
+        flex-direction: column;
+    }
+    table{
+        width: 90vh;
+     
+    }
+
+}
+@media (min-width:50px) and (max-width:499px){
+    
+    th,td{
+        font-size: 8px;
+    }
+    #create{
+        width: 60vh;
+    }
+    .main-container{
+        flex-direction: column;
+    }
+    table{
+        width: 50vh;
+        padding: 0px;
+     
+    }
+
+}
+
 
 .navbar{
     width: 100%;
@@ -133,35 +173,12 @@ thead{
     top:0;
     
 }
-.sub:hover{
-    cursor:pointer;
-    border: 2px solid white;
-}
 body{
     padding: 0px;
     background-color: rgb(213, 208, 208);
 }
-@media (min-width:300px) and (max-width:1000px){
-    .table-container{
-        font-size: 10px;
-        padding: 5px;
-    }
-    th,td{
-        font-size: 16px;
-    }
-    #create{
-        width: 60vh;
-    }
-    .main-container{
-        flex-direction: column;
-    }
-    table{
-        width: 70vh;
-    }
-
-}
-@media (min-width:50px) and (max-width:300px){
-    th,td{
-        font-size:12px;
+.sub:hover{
+    cursor:pointer;
+    border: 2px solid white;
 }
 
