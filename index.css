@@ -5,7 +5,7 @@
     margin-top: 150px;
 }
 #create{
-    width: 70vh;
+    width: 30vw;
     border: 0px solid black;
     align-items: center;
     text-align: center;
@@ -33,19 +33,19 @@ form>input,select{
 
 }
 form>input:nth-child(1){
-    width: 94.3%;
+    width: 93.5%;
 }
 form>input:nth-child(2){
-    width: 94.3%;
+    width: 93.5%;
 }
 form>input:nth-child(3){
-    width: 94.3%;
+    width: 93.5%;
 }
 form>input:nth-child(4){
-    width: 94.3%;
+    width: 93.5%;
 }
 form select{
-    height: 48px;
+  
     padding: 15px;
 
 }
@@ -62,8 +62,7 @@ body{
     text-align: center;
 }
 table{
-
-    width: 130vh;
+    width: 70vw;
     margin: auto;
     border-collapse:collapse ;
    
@@ -71,14 +70,14 @@ table{
 }
 table>thead{
     background-color: yellow;
-    height: 6vh;
+    height: 3vw;
     font-size: 20px;
     text-align: center;
 
 
 }
 tbody>tr{
-    height: 6vh;
+    height: 3vw;
     font-size: 16px;
     background-color: aquamarine;
     text-align: center;
@@ -93,8 +92,8 @@ td:hover{
 h1{
     display: inline-block;
     background-color: rgb(77, 182, 182);
-    padding: 2vh;
-    border-radius: 10px;
+    padding: 1vw;
+    border-radius: 5px;
     
 }
 thead{
@@ -105,20 +104,21 @@ thead{
 
 #total-price{
    display: inline-block;
-   padding: 3vh;
-   padding-left: 6vh;
-   padding-right: 8vh;
+   padding: 2vw;
+   padding-left: 3vw;
+   padding-right: 4vw;
    background-color: white;
    border: 2px solid blue;
-   border-radius:10px ;
+   border-radius: none;
    box-shadow: 10px 10px 20px .1px gray;
 } 
 .table-container{
-    border: 2px solid black;
+   
     border-radius: 10px;
     text-align: end;
+    box-shadow: rgba(0, 0, 0, 0.74) 0px 3px 8px;
 }
-@media (min-width:500px) and (max-width:1000px){
+@media (min-width:600px) and (max-width:1000px){
     .table-container{
         background-color: aqua;
     }
@@ -127,33 +127,39 @@ thead{
         font-size: 16px;
     }
     #create{
-        width: 60vh;
+        width: 450px;
     }
     .main-container{
         flex-direction: column;
     }
     table{
-        width: 90vh;
+        width: 93vw;
      
     }
 
 }
-@media (min-width:50px) and (max-width:499px){
-    
+@media(max-width:599px){
     th,td{
         font-size: 8px;
     }
     #create{
-        width: 60vh;
+        width: 400px;
     }
     .main-container{
         flex-direction: column;
     }
+    .table-container{
+        width: 380px;
+    }
     table{
-        width: 50vh;
+        
+        width: 100%;
         padding: 0px;
      
     }
+    #total-price{
+       font-size: 15px;
+     } 
 
 }
 
