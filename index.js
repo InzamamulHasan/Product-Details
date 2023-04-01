@@ -32,6 +32,11 @@ function addievn(){
         col6.innerText=prcsegment(data.price);
         let col7=document.createElement("td");
         col7.innerText="Delete";
+         if(data.category==""||data.proname==""||data.brand==""||data.price==""||data.delivered==""){
+
+            alert("Data missing");
+            return;
+        }
         col7.addEventListener("click",function(e){
             c=c-data.price;
             document.getElementById("total-price").innerText="Total Price:- "+c;
