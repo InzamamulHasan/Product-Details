@@ -127,7 +127,7 @@ thead{
         font-size: 16px;
     }
     #create{
-        width: 450px;
+        width: ;
     }
     .main-container{
         flex-direction: column;
@@ -143,13 +143,13 @@ thead{
         font-size: 8px;
     }
     #create{
-        width: 400px;
+        width: 360px;
     }
     .main-container{
         flex-direction: column;
     }
     .table-container{
-        width: 380px;
+        width: 360px;
     }
     table{
         
