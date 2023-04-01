@@ -140,16 +140,17 @@ thead{
 }
 @media(max-width:599px){
     th,td{
-        font-size: 8px;
+        font-size: 10px;
+        height:25px;
     }
     #create{
-        width: 360px;
+        width: 340px;
     }
     .main-container{
         flex-direction: column;
     }
     .table-container{
-        width: 360px;
+        width: 370px;
     }
     table{
         
