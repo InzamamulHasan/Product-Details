@@ -118,51 +118,6 @@ thead{
     text-align: end;
     box-shadow: rgba(0, 0, 0, 0.74) 0px 3px 8px;
 }
-@media (min-width:600px) and (max-width:1000px){
-    .table-container{
-        background-color: aqua;
-    }
-    
-    th,td{
-        font-size: 16px;
-    }
-    #create{
-        width: ;
-    }
-    .main-container{
-        flex-direction: column;
-    }
-    table{
-        width: 93vw;
-     
-    }
-
-}
-@media(max-width:599px){
-    th,td{
-        font-size: 10px;
-        height:25px;
-    }
-    #create{
-        width: 340px;
-    }
-    .main-container{
-        flex-direction: column;
-    }
-    .table-container{
-        width: 370px;
-    }
-    table{
-        
-        width: 100%;
-        padding: 0px;
-     
-    }
-    #total-price{
-       font-size: 15px;
-     } 
-
-}
 
 
 .navbar{
@@ -187,5 +142,54 @@ body{
 .sub:hover{
     cursor:pointer;
     border: 2px solid white;
+}
+@media (min-width:600px) and (max-width:1000px){
+    .table-container{
+        background-color: aqua;
+        margin: auto;
+    }
+    
+    th,td{
+        font-size: 16px;
+    }
+    #create{
+        width: 400px;
+        margin-top: auto;
+    }
+    .main-container{
+        flex-direction: column;
+    }
+    table{
+        width: 93vw;
+     
+    }
+
+}
+@media(max-width:599px){
+    th,td{
+        font-size: 10px;
+        height: 25px;
+    }
+    #create{
+        width: 340px;
+        margin: auto;
+    }
+    .main-container{
+        flex-direction: column;
+    }
+    .table-container{
+        width: 370px;
+        margin: auto;
+    }
+    table{
+        
+        width: 100%;
+        padding: 0px;
+     
+    }
+    #total-price{
+       font-size: 15px;
+     } 
+
 }
 
