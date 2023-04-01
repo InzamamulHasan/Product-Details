@@ -161,9 +161,7 @@ body{
 
 }
 @media (min-width:50px) and (max-width:300px){
-    .table-container{
-        font-size: 7px;
-        padding: 2px;
-    }
+    th,td{
+        font-size:12px;
 }
 
