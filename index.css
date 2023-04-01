@@ -151,6 +151,10 @@ thead{
     top:0;
     
 }
+.sub:hover{
+    cursor:pointer;
+    border: 2px solid white;
+}
 body{
     padding: 0px;
     background-color: rgb(213, 208, 208);
